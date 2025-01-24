@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"demo/sxy"
+	"fmt"
+)
 
 func main() {
 	fmt.Println("Hello, World!")
+}
+func init() {
+	sxy.Hello()
 }
