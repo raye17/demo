@@ -1,6 +1,7 @@
 package main
 
 import (
+	"demo/sss"
 	"demo/sxy"
 	"fmt"
 )
@@ -11,4 +12,5 @@ func main() {
 }
 func init() {
 	sxy.Hello()
+	sss.Hello()
 }
